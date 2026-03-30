@@ -1,0 +1,17 @@
+{
+  "name": "server-enclave",
+  "version": "1.0.0",
+  "description": "PhoenixKey Mock API Server — nhận signature từ mobile, giả data gửi về",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
