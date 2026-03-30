@@ -15,7 +15,7 @@ const cors = require('cors');
 const crypto = require('crypto');
 
 const app = express();
-const PORT = 8000;
+const PORT = 8001;
 
 // ─── Middleware ────────────────────────────────────────────────
 app.use(cors());
